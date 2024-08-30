@@ -1,0 +1,24 @@
+#photo {
+  border: 2px solid blue;
+}
+
+h1 {
+  color: blue;
+}
+
+h2 {
+  color: grey;
+  /* background-image: url(./Profile/photo.jpg); */
+}
+
+div {
+  margin: 4px;
+}
+input:checked ~ img {
+  opacity: 0;
+  /* visibility: hidden; */
+  /* display: none; */
+}
+img {
+  transition: 1.5s;
+}
